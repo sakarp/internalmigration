@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Internal Immigration Nepal</title>
+</head>
+
+<body>
+    <h1> Internal Immigration Data Nepal</h1>
+
+    <label for="chooseDistrict">Choose a district</label>
+    <select name="chooseDistrict" id="cDist">
+        <option value="*">All</option>
+    </select>
+
+    <table class = "datatable">
+        <caption>Internal Migration in Nepal</caption>
+        <tr class = "columnHeading" id="cHead">
+            <th class = "colHeadElement" colspan="1">Age Groups</th>
+            <th class = "colHeadElement" colspan="3">Total Population</th>
+            <th class = "colHeadElement" colspan="3">Born Outside District</th>
+        </tr>
+        <tr class = "colSubHeading" id="cSubhead">
+            <th class = "colSubheadElement" scope="col"></th>
+            <th class = "colSubheadElement" scope="col">Male</th>
+            <th class = "colSubheadElement" scope="col">Female</th>
+            <th class = "colSubheadElement" scope="col">Total</th>
+            <th class = "colSubheadElement" scope="col">Male</th>
+            <th class = "colSubheadElement" scope="col">Female</th>
+            <th class = "colSubheadElement" scope="col">Total</th>
+            
+        </tr>
+        <tr class = "rowHeading" id="rHead"></tr>
+    </table>
+
+    <div class="showdata" id="showdatadiv"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
