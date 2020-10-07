@@ -9,14 +9,8 @@
 </head>
 
 <body>
-    <h1> Internal Immigration Data Nepal</h1>
-
-    <label for="chooseDistrict">Choose a district</label>
-    <select name="chooseDistrict" id="cDist">
-        <option value="*">All</option>
-    </select>
-
-    <table class = "datatable">
+    <h2 id = "districtNameDisplay"></h2>;    
+    <table class = "datatable" id="dTable">
         <caption>Internal Migration in Nepal</caption>
         <tr class = "columnHeading" id="cHead">
             <th class = "colHeadElement" colspan="1">Age Groups</th>
@@ -37,6 +31,8 @@
     </table>
 
     <div class="showdata" id="showdatadiv"></div>
+    <script src="p5.min.js"></script>
+    <script src="test.js"></script>
     <script src="app.js"></script>
 </body>
 
